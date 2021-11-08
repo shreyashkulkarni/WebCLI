@@ -1,0 +1,82 @@
+html,
+body {
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(74, 74, 74, 0.815)), url(BLE.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+    0%,
+    100% {
+        transform: rotate(0)
+    }
+    20%,
+    60% {
+        transform: rotate(-25deg)
+    }
+    40%,
+    80% {
+        transform: rotate(10deg)
+    }
+}
+
+@media (max-width:500px) {
+    .github-corner:hover .octo-arm {
+        animation: none
+    }
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out
+    }
+}
+
+.btn {
+    margin-left: 150px;
+    margin-top: 150px;
+    background-color: rgba(234, 234, 234, 0.24);
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+.btn:hover,
+.btn:active {
+    color: #000000;
+    font-weight: bold;
+    background-color: rgba(234, 234, 234, 0.47);
+}
+
+svg {
+    margin-top: 10px;
+}
+
+#input {
+    margin-left: 150px;
+    width: 400px;
+}
+
+#terminal div {
+    color: gray;
+}
